@@ -132,9 +132,10 @@ UPDATE `db_script_string` SET `content_loc3`='%s howls in response to Malukaz\'s
 UPDATE `db_script_string` SET `content_loc3`='%s expresses its approval.' WHERE (`entry`='2000000225');
 UPDATE `db_script_string` SET `content_loc3`='May our bond with you never be broken again, spirit.' WHERE (`entry`='2000000226');
 UPDATE `db_script_string` SET `content_loc3`='Here\'s a beacon, $N. Keep it to yourself, if you\'re gonna find mutilated things that we need.' WHERE (`entry`='200000318');
-UPDATE `db_script_string` SET `content_loc3`='Poor Dorius. If I ever get my hands on those Dark Irons, so help me...' WHERE (`entry`='2000005000');
+UPDATE `db_script_string` SET `content_loc3`='I hope those blood elves across the way don\'t think that I\'m spying on them!' WHERE (`entry`='2000005064');
 */
 
+UPDATE `db_script_string` SET `content_loc3`='Armer Dorius. Falls ich jemals diese Dunkeleisen erwische, dann helft mir...' WHERE (`entry`='2000005000');
 UPDATE `db_script_string` SET `content_loc3`='Opus will etwas Gold von Cuergo... mit Wurm.' WHERE (`entry`='2000005001');
 UPDATE `db_script_string` SET `content_loc3`='Bijou ist verloren! SQUAWK! *hust*' WHERE (`entry`='2000005002');
 UPDATE `db_script_string` SET `content_loc3`='Kibler wird derzeit von der G.E.T.A. geprüft.' WHERE (`entry`='2000005003');
@@ -180,8 +181,6 @@ UPDATE `db_script_string` SET `content_loc3`='Neues Plakat angebracht! Abenteure
 UPDATE `db_script_string` SET `content_loc3`='ICH WERDE ALLES ZERSTÖREN' WHERE (`entry`='2000005043');
 UPDATE `db_script_string` SET `content_loc3`='UNS ALLE, MEHR UND MEHR' WHERE (`entry`='2000005044');
 UPDATE `db_script_string` SET `content_loc3`='Fragt einfach nicht woher ich es habe...' WHERE (`entry`='2000005045');
-UPDATE `db_script_string` SET `content_loc3`='I\'m up to looking into that bounty after this shift.' WHERE (`entry`='2000005046');
-UPDATE `db_script_string` SET `content_loc3`='You want to go do the bounty off of this wanted poster after this shift is over?' WHERE (`entry`='2000005047');
 UPDATE `db_script_string` SET `content_loc3`='Habt Ihr eine schöne Zeit?' WHERE (`entry`='2000005048');
 UPDATE `db_script_string` SET `content_loc3`='Ich habe eine weitere Lesung aus dem Nether.' WHERE (`entry`='2000005049');
 UPDATE `db_script_string` SET `content_loc3`='Nun dann zeigt mal her und wir schauen was Ihr erreicht habt!' WHERE (`entry`='2000005050');
@@ -199,8 +198,9 @@ UPDATE `db_script_string` SET `content_loc3`='Ich habe deine Puppe! Nana, nana!'
 UPDATE `db_script_string` SET `content_loc3`='Gibt mir meine Puppe zurück!' WHERE (`entry`='2000005062');
 UPDATE `db_script_string` SET `content_loc3`='Heulsuse! Heulsuse!' WHERE (`entry`='2000005063');
 
--- -------------------------------------------------------------
-UPDATE `db_script_string` SET `content_loc3`='I hope those blood elves across the way don\'t think that I\'m spying on them!' WHERE (`entry`='2000005064');
+/*
+UPDATE `db_script_string` SET `content_loc3`='I\'m up to looking into that bounty after this shift.' WHERE (`entry`='2000005046');
+UPDATE `db_script_string` SET `content_loc3`='You want to go do the bounty off of this wanted poster after this shift is over?' WHERE (`entry`='2000005047');
 UPDATE `db_script_string` SET `content_loc3`='If I were smart, I\'d be selling this research for a seat on the rocket ship. I have a feeling we\'re going to need to get out of here soon!' WHERE (`entry`='2000005065');
 UPDATE `db_script_string` SET `content_loc3`='If this is right, we don\'t have long! Oh well.' WHERE (`entry`='2000005066');
 UPDATE `db_script_string` SET `content_loc3`='This is the last time that I buy second-hand equipment from ethereal' WHERE (`entry`='2000005067');
@@ -231,7 +231,7 @@ UPDATE `db_script_string` SET `content_loc3`='I haven\'t really figured out what
 UPDATE `db_script_string` SET `content_loc3`='%s tosses the sword into the shallow pool.' WHERE (`entry`='2000005096');
 UPDATE `db_script_string` SET `content_loc3`='I\'ve found that when I throw something into this water, it has improved incredibly when I retrieve it.' WHERE (`entry`='2000005097');
 UPDATE `db_script_string` SET `content_loc3`='Well, whatever it is, it works quite well!' WHERE (`entry`='2000005098');
--- -------------------------------------------------------------
+*/
 
 UPDATE `db_script_string` SET `content_loc3`='Frisches Brot zu verkaufen!' WHERE (`entry`='2000005099');
 UPDATE `db_script_string` SET `content_loc3`='Greif zu, solange es noch heiß ist' WHERE (`entry`='2000005100');
@@ -372,85 +372,85 @@ UPDATE `db_script_string` SET `content_loc3`='ICH SPÜRE DEN TOT KOMMEN' WHERE (`
 
 
 /* Need!
-(2000005205,'It\'s coming along, Wafflefry. Haven\'t you got a product demonstration to do or something?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005206,'Be the first on your block to own the incredible Electrostatic Maculation Blaster!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005300,'Thank you all for coming tonight. Now put your hands together to welcome Shattrath\'s best, Perry Gatner!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005301,'Perry Gatner! What an act! The cantina is open all night long, so please, stay and enjoy yourselves!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005302,'Check out the comedy stylings of Perry Gatner in just a few minutes!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005303,'If you are ready to laugh, head over to the World\'s End Tavern!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005304,'Now, in Shattrath City: The Tauren Chieftains! Playing in the World\'s End Tavern at the top of the hour!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005305,'Who? The Tauren Chieftains! What? A live performance. Where? The World\'s End Tavern! When? The top of the hour! BE THERE!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005306,'You said Brogg could stay here! You promised Brogg you\'d help regain Stonemaul clan mound!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005307,'Hmmm... Where is my fishing hook? Oh, there it is.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005308,'Let\'s see if the fish are biting.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005309,'Hmmm... I think I need better bait. I\'ll check my father\'s wagon.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005310,'Quillboar scraps! These should do the trick. Fish love Quillboar.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005311,'Caught one! I\'ll see if any of the guards are hungry. Come on Fang!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005312,'I caught a fish if you are hungry...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005313,'A nice catch it is at that! You bring honor to the Horde boy, We thank you!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005314,'Would you like something more to eat sir?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005315,'More bread boy!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005316,'Right away sir.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005317,'Here is your bread sir.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005318,'Aaahh... Very good. Now scat!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005319,'As you wish sir.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005320,'Can I go collect more rocks for my necklace, Papa?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005321,'Yes you may, $N. But do not stray too far from home.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005322,'Dabu! I will be careful Papa!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005323,'Ooohh... This rock is nice and colorful. Let\'s see if I can find more like it...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005324,'Hmm... That rock is nice, but too small.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005325,'This is a shiney rock. I\'ll put it in my bucket. Ok, I just need a few more...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005326,'I bet my friend Gruk would like this rock for the spear he is making! It\'s very sharp... I hope he likes it.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005327,'There... That should be enough rocks to make a necklace. I should probably get home now anyway.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005328,'I brought you a housewarming gift, Jarl.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005329,'Go on, open it. I think you\'ll like it.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005330,'Jarl?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005331,'Unless it\'s something I can eat, I don\'t want it.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005332,'Jarl, you haven\'t been yourself ever since I arrived. What\'s going on?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005333,'Nothing. Wanna help me whip up some frog leg stew?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005334,'I came out here to visit you, Jarl! And I find you living in an empty cabin in the middle of nowhere, babbling about frogs? You\'re hopeless!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005335,'And I am determined to find out more... So if you need my help again, you know where I\'ll be.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005336,'Anaya...? Do my eyes deceive me? Is it really you?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005337,'The ages have been cruel to you and I, my love, but be assured, it is, and at long last we are reunited.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005338,'That the fates should be so cruel as to permit us only this after a thousand years apart...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005339,'Do you hate me, my love? That I was forced to destroy your living form, that your spirit be released from unhappy bondage.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005340,'Let it not trouble your heart, beloved. You have freed me from slavery, and for that I love you all the more.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005341,'Sadly, even this must be cut short... The ties that bind me to this world weaken, and pull me away...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005342,'No! Anaya... Anaya! Don\'t leave me! Please...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005343,'Farewell, Cerellean, until we are joined once again...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005344,'Anaya\'s soft voice trails away into the mists. \"Know that I love you always...\"',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005345,'How, my love? How will I find the strength to face the ages of the world without you by my side...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005362,'Hail, Gezhe!  Seventeen more orders have been placed in the Hara\'samid Sector.  The markets of heavy veldarite have all but collapsed, as you predicted.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005363,'Heraazi exports are on the rise, sir.  We\'ve already bribed the appropriate taxation officers and contraband will begin to arrive within days.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005364,'Nothing surprising there.  Come back with some real news, will you?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005365,'As expected.  Very well, dismissed.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005366,'By your leave, sir.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005367,'If you\'re here, then it means you are prepared to begin the study of summoning demonic cohorts to do your bidding. We will start with the lowliest creatures you will be able to call and continue from there. Let us begin.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005368,'The easiest creature for you to summon is the imp. You should already be able to bring forth this minion but for completeness\' sake I will start with him.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005369,'This foul little beast is the imp. It is small and weak, making it almost useless as a meatshield, and its damage output is mediocre at best. This creature is best used for support of a larger group.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005370,'Now that you have had a chance to study the imp, let us move on to the next minion you will be able to summon, the voidwalker.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005371,'This demonic entity is known as the Voidwalker. Its strength and endurance are significant, making it ideal for defense. Send it to attack your enemy, then use it as a shield while you use your spells and abilities to drain away your opponent\'s life.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005372,'If you\'ve never seen one, it is a sight to behold. A very impressive creature both on and off the field of battle. Next, let us take a look at what I am sure all you male students have been waiting for. The succubus.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005373,'All right now. Aside from the obvious distractions a minion like this will provide against your more masculine foes, she is also capable of dealing out impressive amounts of damage. However, her fragile endurance makes her almost useless as a shield.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005374,'Study hard and you might one day be able to summon one on your own, but for now it\'s time to move on to the felhunter.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005375,'What you see before you is a felhunter. This creature\'s natural talents include spell lock and other abilities which make it unequalled when facing a magically attuned opponent.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005376,'When facing a spellcaster of any kind, this feral beast will be your best friend. Now, let us take a look at something a bit different. This next creature will aid your travels and make your future journeys much easier. Let\'s take a look at a felsteed.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005377,'I doubt you have had much occasion to see such a creature. These demonic equines will make your travels much faster by acting as your mount as long as you control them. However, they are difficult to control, so be sure you are ready before attempting it.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005378,'There you have it. Our lesson on summoning has come to an end. A new class will begin shortly, so if you wish to brush up, feel free to stay around.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005379,'Phew! There\'s my lucky hat. I\'ve been looking for it everywhere.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005380,'I don\'t know what I was thinking, going out without my sword. I would\'ve put it on if I\'d seen it here...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005381,'I can\'t possibly go out without my cloak. I hope it\'s in here...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005382,'There it is! I could\'ve sworn it wasn\'t here last time I checked...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005383,'I can\'t sleep without a good bedtime story. Now I\'m certain to rest well.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005407,'Stonemasons. . .errr. . Defias be warned: The rusty anchor sinks tonight.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005408,'The boss wants all hands on high alert. The rusty anchor sinks tonight.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005409,'The priest kneels in silent prayer.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005410,'Light, give me strength.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005411,'Light, lead the fallen from untruth to truth, from darkness to Light and from death to immortality.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005412,'Where do you think you are going soldier? Those are fatal wounds you\'ve got there. Now, get back in tent and let the nurse treat you!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005413,'Now get out of my way, it\'s time to send the Burning Legion back to the nether!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005414,'Sniff... That\'s the spirit soldier... I only wish we had more soldiers like you in this army. Now go out there and give \'em hell!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005415,'NOOOOO!!!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005416,'Friends... I\'ve failed you...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005417,'No my friend... we failed you... we failed you.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+UPDATE `db_script_string` SET `content_loc3`='It\'s coming along, Wafflefry. Haven\'t you got a product demonstration to do or something?' WHERE (`entry`='2000005205');
+UPDATE `db_script_string` SET `content_loc3`='Be the first on your block to own the incredible Electrostatic Maculation Blaster!' WHERE (`entry`='2000005206');
+UPDATE `db_script_string` SET `content_loc3`='Thank you all for coming tonight. Now put your hands together to welcome Shattrath\'s best, Perry Gatner!' WHERE (`entry`='2000005300');
+UPDATE `db_script_string` SET `content_loc3`='Perry Gatner! What an act! The cantina is open all night long, so please, stay and enjoy yourselves!' WHERE (`entry`='2000005301');
+UPDATE `db_script_string` SET `content_loc3`='Check out the comedy stylings of Perry Gatner in just a few minutes!' WHERE (`entry`='2000005302');
+UPDATE `db_script_string` SET `content_loc3`='If you are ready to laugh, head over to the World\'s End Tavern!' WHERE (`entry`='2000005303');
+UPDATE `db_script_string` SET `content_loc3`='Now, in Shattrath City: The Tauren Chieftains! Playing in the World\'s End Tavern at the top of the hour!' WHERE (`entry`='2000005304');
+UPDATE `db_script_string` SET `content_loc3`='Who? The Tauren Chieftains! What? A live performance. Where? The World\'s End Tavern! When? The top of the hour! BE THERE!' WHERE (`entry`='2000005305');
+UPDATE `db_script_string` SET `content_loc3`='You said Brogg could stay here! You promised Brogg you\'d help regain Stonemaul clan mound!' WHERE (`entry`='2000005306');
+UPDATE `db_script_string` SET `content_loc3`='Hmmm... Where is my fishing hook? Oh, there it is.' WHERE (`entry`='2000005307');
+UPDATE `db_script_string` SET `content_loc3`='Let\'s see if the fish are biting.' WHERE (`entry`='2000005308');
+UPDATE `db_script_string` SET `content_loc3`='Hmmm... I think I need better bait. I\'ll check my father\'s wagon.' WHERE (`entry`='2000005309');
+UPDATE `db_script_string` SET `content_loc3`='Quillboar scraps! These should do the trick. Fish love Quillboar.' WHERE (`entry`='2000005310');
+UPDATE `db_script_string` SET `content_loc3`='Caught one! I\'ll see if any of the guards are hungry. Come on Fang!' WHERE (`entry`='2000005311');
+UPDATE `db_script_string` SET `content_loc3`='I caught a fish if you are hungry...' WHERE (`entry`='2000005312');
+UPDATE `db_script_string` SET `content_loc3`='A nice catch it is at that! You bring honor to the Horde boy, We thank you!' WHERE (`entry`='2000005313');
+UPDATE `db_script_string` SET `content_loc3`='Would you like something more to eat sir?' WHERE (`entry`='2000005314');
+UPDATE `db_script_string` SET `content_loc3`='More bread boy!' WHERE (`entry`='2000005315');
+UPDATE `db_script_string` SET `content_loc3`='Right away sir.' WHERE (`entry`='2000005316');
+UPDATE `db_script_string` SET `content_loc3`='Here is your bread sir.' WHERE (`entry`='2000005317');
+UPDATE `db_script_string` SET `content_loc3`='Aaahh... Very good. Now scat!' WHERE (`entry`='2000005318');
+UPDATE `db_script_string` SET `content_loc3`='As you wish sir.' WHERE (`entry`='2000005319');
+UPDATE `db_script_string` SET `content_loc3`='Can I go collect more rocks for my necklace, Papa?' WHERE (`entry`='2000005320');
+UPDATE `db_script_string` SET `content_loc3`='Yes you may, $N. But do not stray too far from home.' WHERE (`entry`='2000005321');
+UPDATE `db_script_string` SET `content_loc3`='Dabu! I will be careful Papa!' WHERE (`entry`='2000005322');
+UPDATE `db_script_string` SET `content_loc3`='Ooohh... This rock is nice and colorful. Let\'s see if I can find more like it...' WHERE (`entry`='2000005323');
+UPDATE `db_script_string` SET `content_loc3`='Hmm... That rock is nice, but too small.' WHERE (`entry`='2000005324');
+UPDATE `db_script_string` SET `content_loc3`='This is a shiney rock. I\'ll put it in my bucket. Ok, I just need a few more...' WHERE (`entry`='2000005325');
+UPDATE `db_script_string` SET `content_loc3`='I bet my friend Gruk would like this rock for the spear he is making! It\'s very sharp... I hope he likes it.' WHERE (`entry`='2000005326');
+UPDATE `db_script_string` SET `content_loc3`='There... That should be enough rocks to make a necklace. I should probably get home now anyway.' WHERE (`entry`='2000005327');
+UPDATE `db_script_string` SET `content_loc3`='I brought you a housewarming gift, Jarl.' WHERE (`entry`='2000005328');
+UPDATE `db_script_string` SET `content_loc3`='Go on, open it. I think you\'ll like it.' WHERE (`entry`='2000005329');
+UPDATE `db_script_string` SET `content_loc3`='Jarl?' WHERE (`entry`='2000005330');
+UPDATE `db_script_string` SET `content_loc3`='Unless it\'s something I can eat, I don\'t want it.' WHERE (`entry`='2000005331');
+UPDATE `db_script_string` SET `content_loc3`='Jarl, you haven\'t been yourself ever since I arrived. What\'s going on?' WHERE (`entry`='2000005332');
+UPDATE `db_script_string` SET `content_loc3`='Nothing. Wanna help me whip up some frog leg stew?' WHERE (`entry`='2000005333');
+UPDATE `db_script_string` SET `content_loc3`='I came out here to visit you, Jarl! And I find you living in an empty cabin in the middle of nowhere, babbling about frogs? You\'re hopeless!' WHERE (`entry`='2000005334');
+UPDATE `db_script_string` SET `content_loc3`='And I am determined to find out more... So if you need my help again, you know where I\'ll be.' WHERE (`entry`='2000005335');
+UPDATE `db_script_string` SET `content_loc3`='Anaya...? Do my eyes deceive me? Is it really you?' WHERE (`entry`='2000005336');
+UPDATE `db_script_string` SET `content_loc3`='The ages have been cruel to you and I, my love, but be assured, it is, and at long last we are reunited.' WHERE (`entry`='2000005337');
+UPDATE `db_script_string` SET `content_loc3`='That the fates should be so cruel as to permit us only this after a thousand years apart...' WHERE (`entry`='2000005338');
+UPDATE `db_script_string` SET `content_loc3`='Do you hate me, my love? That I was forced to destroy your living form, that your spirit be released from unhappy bondage.' WHERE (`entry`='2000005339');
+UPDATE `db_script_string` SET `content_loc3`='Let it not trouble your heart, beloved. You have freed me from slavery, and for that I love you all the more.' WHERE (`entry`='2000005340');
+UPDATE `db_script_string` SET `content_loc3`='Sadly, even this must be cut short... The ties that bind me to this world weaken, and pull me away...' WHERE (`entry`='2000005341');
+UPDATE `db_script_string` SET `content_loc3`='No! Anaya... Anaya! Don\'t leave me! Please...' WHERE (`entry`='2000005342');
+UPDATE `db_script_string` SET `content_loc3`='Farewell, Cerellean, until we are joined once again...' WHERE (`entry`='2000005343');
+UPDATE `db_script_string` SET `content_loc3`='Anaya\'s soft voice trails away into the mists. \"Know that I love you always...\"' WHERE (`entry`='2000005344');
+UPDATE `db_script_string` SET `content_loc3`='How, my love? How will I find the strength to face the ages of the world without you by my side...' WHERE (`entry`='2000005345');
+UPDATE `db_script_string` SET `content_loc3`='Hail, Gezhe!  Seventeen more orders have been placed in the Hara\'samid Sector.  The markets of heavy veldarite have all but collapsed, as you predicted.' WHERE (`entry`='2000005362');
+UPDATE `db_script_string` SET `content_loc3`='Heraazi exports are on the rise, sir.  We\'ve already bribed the appropriate taxation officers and contraband will begin to arrive within days.' WHERE (`entry`='2000005363');
+UPDATE `db_script_string` SET `content_loc3`='Nothing surprising there.  Come back with some real news, will you?' WHERE (`entry`='2000005364');
+UPDATE `db_script_string` SET `content_loc3`='As expected.  Very well, dismissed.' WHERE (`entry`='2000005365');
+UPDATE `db_script_string` SET `content_loc3`='By your leave, sir.' WHERE (`entry`='2000005366');
+UPDATE `db_script_string` SET `content_loc3`='If you\'re here, then it means you are prepared to begin the study of summoning demonic cohorts to do your bidding. We will start with the lowliest creatures you will be able to call and continue from there. Let us begin.' WHERE (`entry`='2000005367');
+UPDATE `db_script_string` SET `content_loc3`='The easiest creature for you to summon is the imp. You should already be able to bring forth this minion but for completeness\' sake I will start with him.' WHERE (`entry`='2000005368');
+UPDATE `db_script_string` SET `content_loc3`='This foul little beast is the imp. It is small and weak, making it almost useless as a meatshield, and its damage output is mediocre at best. This creature is best used for support of a larger group.' WHERE (`entry`='2000005369');
+UPDATE `db_script_string` SET `content_loc3`='Now that you have had a chance to study the imp, let us move on to the next minion you will be able to summon, the voidwalker.' WHERE (`entry`='2000005370');
+UPDATE `db_script_string` SET `content_loc3`='This demonic entity is known as the Voidwalker. Its strength and endurance are significant, making it ideal for defense. Send it to attack your enemy, then use it as a shield while you use your spells and abilities to drain away your opponent\'s life.' WHERE (`entry`='2000005371');
+UPDATE `db_script_string` SET `content_loc3`='If you\'ve never seen one, it is a sight to behold. A very impressive creature both on and off the field of battle. Next, let us take a look at what I am sure all you male students have been waiting for. The succubus.' WHERE (`entry`='2000005372');
+UPDATE `db_script_string` SET `content_loc3`='All right now. Aside from the obvious distractions a minion like this will provide against your more masculine foes, she is also capable of dealing out impressive amounts of damage. However, her fragile endurance makes her almost useless as a shield.' WHERE (`entry`='2000005373');
+UPDATE `db_script_string` SET `content_loc3`='Study hard and you might one day be able to summon one on your own, but for now it\'s time to move on to the felhunter.' WHERE (`entry`='2000005374');
+UPDATE `db_script_string` SET `content_loc3`='What you see before you is a felhunter. This creature\'s natural talents include spell lock and other abilities which make it unequalled when facing a magically attuned opponent.' WHERE (`entry`='2000005375');
+UPDATE `db_script_string` SET `content_loc3`='When facing a spellcaster of any kind, this feral beast will be your best friend. Now, let us take a look at something a bit different. This next creature will aid your travels and make your future journeys much easier. Let\'s take a look at a felsteed.' WHERE (`entry`='2000005376');
+UPDATE `db_script_string` SET `content_loc3`='I doubt you have had much occasion to see such a creature. These demonic equines will make your travels much faster by acting as your mount as long as you control them. However, they are difficult to control, so be sure you are ready before attempting it.' WHERE (`entry`='2000005377');
+UPDATE `db_script_string` SET `content_loc3`='There you have it. Our lesson on summoning has come to an end. A new class will begin shortly, so if you wish to brush up, feel free to stay around.' WHERE (`entry`='2000005378');
+UPDATE `db_script_string` SET `content_loc3`='Phew! There\'s my lucky hat. I\'ve been looking for it everywhere.' WHERE (`entry`='2000005379');
+UPDATE `db_script_string` SET `content_loc3`='I don\'t know what I was thinking, going out without my sword. I would\'ve put it on if I\'d seen it here...' WHERE (`entry`='2000005380');
+UPDATE `db_script_string` SET `content_loc3`='I can\'t possibly go out without my cloak. I hope it\'s in here...' WHERE (`entry`='2000005381');
+UPDATE `db_script_string` SET `content_loc3`='There it is! I could\'ve sworn it wasn\'t here last time I checked...' WHERE (`entry`='2000005382');
+UPDATE `db_script_string` SET `content_loc3`='I can\'t sleep without a good bedtime story. Now I\'m certain to rest well.' WHERE (`entry`='2000005383');
+UPDATE `db_script_string` SET `content_loc3`='Stonemasons. . .errr. . Defias be warned: The rusty anchor sinks tonight.' WHERE (`entry`='2000005407');
+UPDATE `db_script_string` SET `content_loc3`='The boss wants all hands on high alert. The rusty anchor sinks tonight.' WHERE (`entry`='2000005408');
+UPDATE `db_script_string` SET `content_loc3`='The priest kneels in silent prayer.' WHERE (`entry`='2000005409');
+UPDATE `db_script_string` SET `content_loc3`='Light, give me strength.' WHERE (`entry`='2000005410');
+UPDATE `db_script_string` SET `content_loc3`='Light, lead the fallen from untruth to truth, from darkness to Light and from death to immortality.' WHERE (`entry`='2000005411');
+UPDATE `db_script_string` SET `content_loc3`='Where do you think you are going soldier? Those are fatal wounds you\'ve got there. Now, get back in tent and let the nurse treat you!' WHERE (`entry`='2000005412');
+UPDATE `db_script_string` SET `content_loc3`='Now get out of my way, it\'s time to send the Burning Legion back to the nether!' WHERE (`entry`='2000005413');
+UPDATE `db_script_string` SET `content_loc3`='Sniff... That\'s the spirit soldier... I only wish we had more soldiers like you in this army. Now go out there and give \'em hell!' WHERE (`entry`='2000005414');
+UPDATE `db_script_string` SET `content_loc3`='NOOOOO!!!' WHERE (`entry`='2000005415');
+UPDATE `db_script_string` SET `content_loc3`='Friends... I\'ve failed you...' WHERE (`entry`='2000005416');
+UPDATE `db_script_string` SET `content_loc3`='No my friend... we failed you... we failed you.' WHERE (`entry`='2000005417');
 */
