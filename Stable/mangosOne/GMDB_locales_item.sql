@@ -28,7 +28,7 @@ INSERT IGNORE INTO locales_item (entry) SELECT entry FROM item_template;
 
 SET NAMES 'utf8';
 
-UPDATE locales_item SET name_loc3='', description_loc3_loc3=NULL;
+UPDATE locales_item SET name_loc3='', description_loc3=NULL;
 
 UPDATE `locales_item` SET `name_loc3`='Abgenutztes Kurzschwert' WHERE (`entry`='25');
 UPDATE `locales_item` SET `name_loc3`='Gebogener Stab' WHERE (`entry`='35');
