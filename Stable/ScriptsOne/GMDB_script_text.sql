@@ -33,7 +33,6 @@ UPDATE script_texts SET content_loc3='%s wird mörderisch wahnsinnig!' WHERE ent
 UPDATE script_texts SET content_loc3='%s wird wahnsinnig!' WHERE entry=-1000002;
 UPDATE script_texts SET content_loc3='%s wird wütend' WHERE entry=-1000003;
 UPDATE script_texts SET content_loc3='%s geht in einen Berserkermodus!' WHERE entry=-1000004;
-
 ###
 # Missing entry -1 000 005
 ###
@@ -2135,6 +2134,9 @@ UPDATE script_texts SET content_loc3='Ich werde Eure Welt... auf den Kopf stelle
 UPDATE script_texts SET content_loc3='Meister, verleih mir Stärke.' WHERE entry=-1585027;
 UPDATE script_texts SET content_loc3='Macht es euch nicht zu bequem.' WHERE entry=-1585028;
 UPDATE script_texts SET content_loc3='Mein Hinscheiden bewirkt gar nichts! Der Meister wird Euch vernichten! Ihr werdet in Eurem eigenen Blut ertrinken! Die Welt soll brennen! Aaaghh!' WHERE entry=-1585029;
+###
+# Missing entry -1 568 081
+###
 
 -- -1 999 900 EXAMPLE TEXT
 UPDATE script_texts SET content_loc3='Lasst die Spiele beginnen.' WHERE entry=-1999900;
