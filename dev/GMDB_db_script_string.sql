@@ -24,10 +24,9 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.        #
 ################################################################################
 
-/*
-DEVELOPMENT
+/* 
+   DEVELOPMENT
 */
-SET NAMES 'utf8';
 
 UPDATE `db_script_string` SET `content_loc3`='Gehe in den Ring des Blutes, $N. Der Kampf wird bald beginnen!' WHERE (`entry`='2000000001');
 UPDATE `db_script_string` SET `content_loc3`='Der Kampf wird bald beginnen!' WHERE (`entry`='2000000002');
@@ -98,6 +97,7 @@ UPDATE `db_script_string` SET `content_loc3`='Hier ist sogar noch etwas. Nach de
 UPDATE `db_script_string` SET `content_loc3`='Die Schreibtafel gibt uns die Bestätigung, die wir benötigen, genau wie ich dachte. jetzt müssen wir diese Informationen gebrauchen, um auszuziehen und Anzu zu besiegen bevor er dem smaragdgrünen Traum noch mehr Schaden zufügen kann!' WHERE (`entry`='2000000074');
 UPDATE `db_script_string` SET `content_loc3`='Seit die Sperber so einen großen Erfolg bei der Jagd nach den Rabensteine verbucht haben, hat Behüterin Elaira einen Weiteren trainiert, um meine Stimme über eine große Distanz zu übertragen. Er kann uns helfen miteinander zu kommunizieren während ihr den Vogelgeist der in der Schreibtafel gefangen ist erkundet!' WHERE (`entry`='2000000075');
 UPDATE `db_script_string` SET `content_loc3`='Hört, hört, Bewohner von Tanaris! Lasst es alle wissen: $N ist ein exzellentes Mitglied des Mithrilordens. Ein Schmied mit Ehre, Engagement und grenzenloser Geduld. Ein dreifaches Hoch auf $N!' WHERE (`entry`='2000000076');
+
 /*
 UPDATE `db_script_string` SET `content_loc3`='Glowing Soulgem bursts open!' WHERE (`entry`='2000000078');
 UPDATE `db_script_string` SET `content_loc3`='Then we must put an end to Athrikus Narassin. Tell me, spirit, where might we find the other soulgems, to undo his magic?' WHERE (`entry`='2000000079');
@@ -391,7 +391,6 @@ UPDATE `db_script_string` SET `content_loc3`='Lehnt Euch einfach zurück und hört
 UPDATE `db_script_string` SET `content_loc3`='Ich kann diese Steuern nicht annehmen! F.I.C.A. für mich? F.I.C.A. für EUCH!' WHERE (`entry`='2000005234');
 UPDATE `db_script_string` SET `content_loc3`='KEINER WIRD AN MIR VORBEIKOMMEN' WHERE (`entry`='2000005235');
 UPDATE `db_script_string` SET `content_loc3`='ICH SPÜRE DEN TOT KOMMEN' WHERE (`entry`='2000005236');
-
 
 /* Need!
 UPDATE `db_script_string` SET `content_loc3`='It\'s coming along, Wafflefry. Haven\'t you got a product demonstration to do or something?' WHERE (`entry`='2000005205');

@@ -1,8 +1,7 @@
-
-
-/* Server CRASH */
-
-#####	command	#####
+/* 
+   Server CRASH
+   DEVELOPMENT
+*/
 
 UPDATE `command` SET `help`='Syntax: .account\r\n\r\nZeigt die Berechtigungsstufe Ihres Accounts an.' WHERE (`name`='account');
 UPDATE `command` SET `help`='Syntax: .account create $account $password\r\n\r\nErstellt einen Account mit angegebenem Passwort.' WHERE (`name`='account create');
@@ -250,6 +249,3 @@ UPDATE `command` SET `help`='Syntax: .wp import $filename' WHERE (`name`='wp imp
 UPDATE `command` SET `help`='Syntax: .wp export [#creature_guid oder wählt eine Kreatur an] $filename' WHERE (`name`='wp export');
 UPDATE `command` SET `help`='Syntax: .wp modify [#creature_guid oder wählt eine Kreatur an]\r\nadd - Fügt einen Wegpunkt (waypoint) hinter den angewählte visuellen\r\nWartezeit $time\r\nemote ID\r\nspell ID\r\ntext1| text2| text3| text4| text5 <text>\r\nmodel1 ID\r\nmodel2 ID\r\nmove(bewegt den WP zu der Position des Spielers)\r\ndel (löscht den WP)\r\n\r\nNur ein Parameter pro Befehl!' WHERE (`name`='wp modify');
 UPDATE `command` SET `help`='Syntax: .wp show [#creature_guid oder wählt eine Kreatur an]\r\nOn\r\nFirst\r\nLast\r\nOff\r\nInfo\r\n\r\nUm eine Information zu gebrauchen müsst Ihr zuerst show auf "on" setzen und dann einen Visuellen-Wegpunkt auswählen und dann show info!' WHERE (`name`='wp show');
-
-
-

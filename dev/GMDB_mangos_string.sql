@@ -1,5 +1,6 @@
-/* The Translator Crasht the Server */
-
+/* 
+   DEVELOPMENT
+*/
 UPDATE `mangos_string` SET `content_default`='Ihr solltet einen Charakter oder eine Kreatur auswählen.' WHERE (`entry`='1');
 UPDATE `mangos_string` SET `content_default`='Ihr solltet eine Kreatur auswählen.' WHERE (`entry`='2');
 UPDATE `mangos_string` SET `content_default`='|cffff0000[Systemnachricht]: %s|r' WHERE (`entry`='3');
@@ -612,5 +613,3 @@ UPDATE `mangos_string` SET `content_default`='%d - Gilde: %s (Guid: %u) %s' WHER
 UPDATE `mangos_string` SET `content_default`='Ihr müsst "male" (männlich) oder "female" (weiblich) als Geschlecht benutzen.' WHERE (`entry`='1119');
 UPDATE `mangos_string` SET `content_default`='Ihr verändert das Geschlecht von %s auf %s.' WHERE (`entry`='1120');
 UPDATE `mangos_string` SET `content_default`='Euer Geschlecht wurde auf %s von %s geändert.' WHERE (`entry`='1121');
-
-SET NAMES 'latin1';
