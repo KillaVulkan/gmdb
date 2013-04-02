@@ -25,7 +25,7 @@
 ################################################################################
 
 INSERT IGNORE INTO locales_page_text (entry) SELECT entry FROM page_text;
-SET NAMES 'utf8';
+
 UPDATE locales_page_text SET Text_loc3=NULL;
 
 UPDATE `locales_page_text` SET `Text_loc3`='Mein lieber Morgan,\\r\\n\\r\\ndie Geschäfte hier in Goldhain gehen gut - so gut, dass ich bislang noch nicht einmal dazugekommen bin, dir eine Lieferung zu schicken! \\r\\n\\r\\nDie Person, die dir diese Notiz übergibt, hat gleichzeitig auch den Auftrag von mir, dir ein großes Paket Wachskerzen zu übergeben - du weißt schon, diese Dinger, wie sie Kobolde gern auf dem Kopf tragen. \\r\\n\\r\\nBitte zeig dich dankbar und entlohn die Person angemessen.' WHERE (`entry`='15');
@@ -1447,5 +1447,3 @@ UPDATE `locales_page_text` SET `Text_loc3`='<Auf der stark verbrannten Seite sin
 ###
 UPDATE `locales_page_text` SET `Text_loc3`='Im Namen unseres großen Meisters... zu Ehren Illidans!\\r\\n\\r\\nDie herkömmlichen Elemente für den Bau der Seelenkanone können durch diverse Handel erlangt werden. Ingenieure und Kenner des Bergbaus sollten Euch mit Teufelsstahlbarren, Khoriumkraftkernen und Adamantitrahmen weiterhelfen können.\\r\\n\\r\\nFür die makellose arkane Essenz müsst Ihr in die Wälder von Terokkar reisen. Inmitten des Waldes, über dem Außenposten der Horde, der Steinbrecherfeste, werdet Ihr das Zuhause von Sar''this finden, einen Ungläubigen der Arakkoa. Man kennt das Gebiet als Jorunesee.\\r\\n\\r\\nSprecht mit Sar''this und erzählt ihm, nach was Ihr sucht. Vergesst nicht zu erwähnen, dass ich Euch zu ihm gesandt habe, da er mir noch den ein oder anderen Gefallen schuldet.\\r\\n\\r\\nBefolgt Sar''this'' Anweisungen und die Essenz sollte Euer sein.\\r\\n\\r\\n-Balthas' WHERE (`entry`='3028');
 UPDATE `locales_page_text` SET `Text_loc3`='Als ich das letzte Mal in den Hallen war, trug Klauenkönig Ikiss Terokks Federkiel als Zeichen seiner Autorität mit sich herum. Vermutlich hat er ihn immer noch bei sich, um seine Anhänger davon zu überzeugen, dass er die Wiedergeburt Terokks ist.$B$BMein Bruder, Dunkelwirker Syth, trug bei der Durchführung der Sethekkrituale Terokks Maske.$B$BWas die Sage von Terokk betrifft, so wird sie in einem Runenzirkel in dem großen Gewölbe direkt außerhalb Klauenkönig Ikiss'' eigener Halle verwahrt.' WHERE (`entry`='3029');
-
-SET NAMES 'latin1';

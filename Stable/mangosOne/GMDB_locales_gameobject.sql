@@ -24,9 +24,8 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.        #
 ################################################################################
 
-INSERT IGNORE INTO locales_gameobject (entry) SELECT entry FROM locales_gameobject;
+INSERT IGNORE INTO locales_gameobject (entry) SELECT entry FROM gameobject_template;
 
-SET NAMES 'utf8';
 UPDATE locales_gameobject SET name_loc3='';
 
 UPDATE `locales_gameobject` SET `name_loc3`='Alte Löwenstatue' WHERE (`entry`='31');
@@ -13402,6 +13401,3 @@ UPDATE `locales_gameobject` SET `castbarcaption_loc3`='Untersuchen' WHERE `entry
 UPDATE `locales_gameobject` SET `castbarcaption_loc3`='Trinke' WHERE `entry` IN (185598, 185914);
 -- Collecting
 UPDATE `locales_gameobject` SET `castbarcaption_loc3`='Sammle' WHERE `entry` IN (175894, 176344, 176361, 176392, 176393, 177289, 178195, 181372, 181644, 181981, 182031, 182050, 182053, 182127, 182128, 182256, 182542, 182584, 182599, 182600, 182601, 182606, 182940, 183385, 183767, 183813, 183814, 183935, 184031, 184689, 184726, 184727, 184728, 184729, 184744, 184948, 185152, 185182, 185497, 185499, 185500, 185502, 185900, 185562, 185567, 185569, 185574, 185577, 185911, 185915, 185939, 186733, 186423, 186463, 186729, 187039);
--- Breaking
-
-SET NAMES 'latin1';

@@ -26,7 +26,7 @@
 
 
 INSERT IGNORE INTO locales_npc_text (entry) SELECT ID FROM npc_text;
-SET NAMES 'utf8';
+
 UPDATE locales_npc_text SET Text0_0_loc3=NULL, Text0_1_loc3=NULL, Text1_0_loc3=NULL, Text1_1_loc3=NULL, Text2_0_loc3=NULL, Text2_1_loc3=NULL, Text3_0_loc3=NULL, Text3_1_loc3=NULL, Text4_0_loc3=NULL, Text4_1_loc3=NULL, Text5_0_loc3=NULL, Text5_1_loc3=NULL, Text6_0_loc3=NULL, Text6_1_loc3=NULL, Text7_0_loc3=NULL, Text7_1_loc3=NULL;
 
 UPDATE `locales_npc_text` SET `Text0_1_loc3`='Seid gegrüßt, $N' WHERE (`entry`='1');
@@ -3224,5 +3224,3 @@ UPDATE `locales_npc_text` SET `Text0_0_loc3`='Anveena ist keine bloße Sterbliche
 UPDATE `locales_npc_text` SET `Text0_1_loc3`='Liebling, für diese Schuhe könnte man sterben! Das meine ich wörtlich. Wen hast du dafür umgebracht?' WHERE (`entry`='12963');
 UPDATE `locales_npc_text` SET `Text0_0_loc3`='Beachtet mich gar nicht. Ich bin nur ein alter Mann und warte auf einen alten... Freund.' WHERE (`entry`='13079');
 UPDATE `locales_npc_text` SET `Text0_0_loc3`='Seid gegrüßt, $N', `Text0_1_loc3`='Seid gegrüßt, $N' WHERE (`entry`='16777215');
-
-SET NAMES 'latin1';

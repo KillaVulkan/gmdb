@@ -26,8 +26,6 @@
 
 INSERT IGNORE INTO locales_item (entry) SELECT entry FROM item_template;
 
-SET NAMES 'utf8';
-
 UPDATE locales_item SET name_loc3='', description_loc3=NULL;
 
 UPDATE `locales_item` SET `name_loc3`='Abgenutztes Kurzschwert' WHERE (`entry`='25');
@@ -24282,5 +24280,3 @@ UPDATE `locales_item` SET `name_loc3`='Netherrochenlarve' WHERE (`entry`='38628'
 UPDATE `locales_item` SET `name_loc3`='Frischer Braufesthopfen aus Goblinanbau', `description_loc3`='Jetzt könnt Ihr mal sehen, wie es auf der anderen Seite zugeht.' WHERE (`entry`='39476');
 UPDATE `locales_item` SET `name_loc3`='Frischer Braufesthopfen aus Zwergenanbau', `description_loc3`='Jetzt könnt Ihr mal sehen, wie es auf der anderen Seite zugeht.' WHERE (`entry`='39477');
 UPDATE `locales_item` SET `name_loc3`='Tyraels Schwertgriff' WHERE (`entry`='39656');
-
-SET NAMES 'latin1';

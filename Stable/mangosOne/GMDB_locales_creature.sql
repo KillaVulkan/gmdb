@@ -26,7 +26,6 @@
 
 INSERT IGNORE INTO locales_creature (entry) SELECT entry FROM creature_template;
 
-SET NAMES 'utf8';
 UPDATE locales_creature SET `name_loc3`='', `subname_loc3`=null;
 
 UPDATE locales_creature SET name_loc3='Wegpunkt (Nur für GMs sichtbar)', subname_loc3='Visual' WHERE entry=1;
@@ -15729,5 +15728,3 @@ UPDATE `locales_creature` SET `name_loc3`='Zwergischer Bauarbeiter' WHERE entry=
 UPDATE `locales_creature` SET `name_loc3`='Mini-Tyrael' WHERE entry=29089;
 UPDATE `locales_creature` SET `name_loc3`='Ian Drake', `subname_loc3`='Ältester' WHERE entry=29093;
 UPDATE `locales_creature` SET `name_loc3`='Edward Cairn', `subname_loc3`='Ältester' WHERE entry=29095;
-
-SET NAMES 'latin1';

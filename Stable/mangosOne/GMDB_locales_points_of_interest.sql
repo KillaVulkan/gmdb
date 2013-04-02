@@ -28,7 +28,6 @@
 
 INSERT IGNORE INTO locales_points_of_interest (entry) SELECT entry FROM points_of_interest;
 
-SET NAMES 'utf8';
 UPDATE locales_points_of_interest SET icon_name_loc3 = NULL;
 
 UPDATE locales_points_of_interest SET icon_name_loc3='Gasthaus Zur Höhle des Löwen' WHERE entry=1;
@@ -494,5 +493,3 @@ UPDATE locales_points_of_interest SET icon_name_loc3='Gasthaus in der Kanalisati
 UPDATE locales_points_of_interest SET icon_name_loc3='Kanalisationstunnel von Dalaran' WHERE entry=446;
 UPDATE locales_points_of_interest SET icon_name_loc3='Händler in der Kanalisation von Dalaran' WHERE entry=447;
 */
-
-SET NAMES 'latin1';
