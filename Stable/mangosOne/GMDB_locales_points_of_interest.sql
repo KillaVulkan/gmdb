@@ -8,10 +8,10 @@
 #####                             CREW                                     #####
 ################################################################################
 # Copyright (C) 2007-2012 GMDB <http://sourceforge.net/projects/gm-db>         #
-# Copyright (C) 2009-2013 MaNGOSZero <https://github.com/mangoszero>           #
+#                                                                              #
 #                                                                              #
 # This program is free software: you can redistribute it and/or modify         #
-# it under the terms of the GNU General Public License as published by         #
+# it under the terms of the GNU General Public License as publihed by          #
 # the Free Software Foundation, either version 3 of the License, or            #
 # (at your option) any later version.                                          #
 #                                                                              #

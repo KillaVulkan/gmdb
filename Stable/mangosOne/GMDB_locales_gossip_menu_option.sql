@@ -8,10 +8,10 @@
 #####                             CREW                                     #####
 ################################################################################
 # Copyright (C) 2007-2012 GMDB <http://sourceforge.net/projects/gm-db>         #
-# Copyright (C) 2009-2013 MaNGOSZero <https://github.com/mangoszero>           #
+#                                                                              #
 #                                                                              #
 # This program is free software: you can redistribute it and/or modify         #
-# it under the terms of the GNU General Public License as published by         #
+# it under the terms of the GNU General Public License as publihed by          #
 # the Free Software Foundation, either version 3 of the License, or            #
 # (at your option) any later version.                                          #
 #                                                                              #
@@ -23,10 +23,6 @@
 # You should have received a copy of the GNU General Public License            #
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.        #
 ################################################################################
-
-
-
-
 #####	locales_gossip_menu_option 	#####
 # INFO: 
 # gossip_menu_option are sorted by this order: 
