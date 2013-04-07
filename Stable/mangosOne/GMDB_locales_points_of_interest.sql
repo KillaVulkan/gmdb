@@ -155,56 +155,6 @@ UPDATE locales_points_of_interest SET icon_name_loc3='Malorne Messerblatt' WHERE
 UPDATE locales_points_of_interest SET icon_name_loc3='Nadyia Schopfweber' WHERE entry=123;
 UPDATE locales_points_of_interest SET icon_name_loc3='Radnaal Schopfweber' WHERE entry=124;
 UPDATE locales_points_of_interest SET icon_name_loc3='Nadyia Schopfweber' WHERE entry=125;
-UPDATE locales_points_of_interest SET icon_name_loc3='Östlicher Kanalisationseingang von Dalaran' WHERE entry=126; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Westlicher Kanalisationseingang von Dalaran' WHERE entry=127; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Brunnen von Dalaran' WHERE entry=128; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Silberne Enklave von Dalaran' WHERE entry=129; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Sonnenhäschers Zuflucht von Dalaran' WHERE entry=130; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Nördliche Bank von Dalaran' WHERE entry=131; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Südliche Bank von Dalaran' WHERE entry=132; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Barbier von Dalaran' WHERE entry=133; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Flugmeister in Dalaran' WHERE entry=134; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Besucherzentrum von Dalaran' WHERE entry=135; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Gasthaus von Dalaran' WHERE entry=136; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Allianzgasthaus von Dalaran' WHERE entry=137; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Hordengasthaus von Dalaran' WHERE entry=138; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Schlosser von Dalaran' WHERE entry=139; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Krasus\' Landeplatz in Dalaran' WHERE entry=140; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Violette Zitadelle von Dalaran' WHERE entry=141; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Violette Festung von Dalaran' WHERE entry=142; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Handelsdistrikt von Dalaran' WHERE entry=143; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Antonidas\' Denkmal von Dalaran' WHERE entry=144; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Runenweberplatz von Dalaran' WHERE entry=145; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Abendruh in Dalaran' WHERE entry=146; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Friedhof von Dalaran' WHERE entry=147; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Inschriftenkundelehrer von Dalaran' WHERE entry=148; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Stallmeister in Dalaran' WHERE entry=149; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Magierlehrer von Dalaran' WHERE entry=150; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Alchemielehrer von Dalaran' WHERE entry=151; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Schmiedekunstlehrer von Dalaran' WHERE entry=152; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Verzauberkunstlehrer von Dalaran' WHERE entry=153; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Ingenieurskunstlehrer von Dalaran' WHERE entry=154; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Lehrer für Erste Hilfe von Dalaran' WHERE entry=155; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Anglerbrunnen von Dalaran' WHERE entry=156; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Kräuterkundelehrer von Dalaran' WHERE entry=157; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Juwelierskunstlehrer von Dalaran' WHERE entry=158; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Lederverarbeitungslehrer von Dalaran' WHERE entry=159; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Bergbaulehrer von Dalaran' WHERE entry=160; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Kürschnerlehrer von Dalaran' WHERE entry=161; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Schneiderleher von Dalaran' WHERE entry=162; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Stoffrüstung & Kleidung von Dalaran' WHERE entry=163; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Blumen von Dalaran' WHERE entry=164; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Fruchthändler von Dalaran' WHERE entry=165; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Gemischt- & Handwerksswarenladen von Dalaran' WHERE entry=166; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Haustierbedarf von Dalaran' WHERE entry=167; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Kuchen, Gebäck & Torten von Dalaran' WHERE entry=168; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Reagenzien von Dalaran' WHERE entry=169; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Spielzeugladen von Dalaran' WHERE entry=170; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Schmuckstücke von Dalaran' WHERE entry=171; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Nahkampfwaffen von Dalaran' WHERE entry=172; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Distanzwaffen von Dalaran' WHERE entry=173; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Stäbe & Zauberstäbe von Dalaran' WHERE entry=174; -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Wein & Käse von Dalaran' WHERE entry=175; -- falsch da WOTLK Content
 UPDATE locales_points_of_interest SET icon_name_loc3='Bank von Orgrimmar' WHERE entry=176;
 UPDATE locales_points_of_interest SET icon_name_loc3='Der Himmelsturm' WHERE entry=177;
 UPDATE locales_points_of_interest SET icon_name_loc3='Botschaft der Horde' WHERE entry=178;
@@ -219,56 +169,54 @@ UPDATE locales_points_of_interest SET icon_name_loc3='Die Halle der Legenden' WH
 UPDATE locales_points_of_interest SET icon_name_loc3='Kampfmeister von Orgrimmar' WHERE entry=187;
 UPDATE locales_points_of_interest SET icon_name_loc3='Barbier von Orgrimmar' WHERE entry=188;
 UPDATE locales_points_of_interest SET icon_name_loc3='Inschriften von Orgrimmar' WHERE entry=189;
-UPDATE locales_points_of_interest SET icon_name_loc3='Auktionator der Exodar' WHERE entry=190; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Bank der Exodar' WHERE entry=191; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Hippogryphenmeister der Exodar' WHERE entry=192; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Gildenmeister der Exodar' WHERE entry=193; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Gasthaus der Exodar' WHERE entry=194; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Briefkasten der Exodar' WHERE entry=195; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Stallmeister der Exodar' WHERE entry=196; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Waffenmeister der Exodar' WHERE entry=197; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Druidenlehrer der Exodar' WHERE entry=198; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Jägerlehrer der Exodar' WHERE entry=199; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Magierlehrer der Exodar' WHERE entry=200; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Paladinlehrer der Exodar' WHERE entry=201; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Priesterlehrer der Exodar' WHERE entry=202; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Schamanenlehrer der Exodar' WHERE entry=203; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Kriegerlehrer der Exodar' WHERE entry=204; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Alchemielehrer der Exodar' WHERE entry=205; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Schmiedekunstlehrer der Exodar' WHERE entry=206; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Verzauberer der Exodar' WHERE entry=207; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Ingenieurskunst der Exodar' WHERE entry=208; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Lehrer für Erste Hilfe der Exodar' WHERE entry=209; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Angellehrer der Exodar' WHERE entry=210; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Kräuterkundelehrer der Exodar' WHERE entry=211; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Inschriften der Exodar' WHERE entry=212; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Juwelenschleifer der Exodar' WHERE entry=213; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Lederverarbeitung der Exodar' WHERE entry=214; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Bergbaulehrer der Exodar' WHERE entry=215; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Kürschnerlehrer der Exodar' WHERE entry=216; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Schneider der Exodar' WHERE entry=217; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Koch der Exodar' WHERE entry=218; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Gastwirt der Azurwacht' WHERE entry=219; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Stallmeister der Azurwacht' WHERE entry=220; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Jägerlehrer der Azurwacht' WHERE entry=221; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Magierlehrer der Azurwacht' WHERE entry=222; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Paladinlehrer der Azurwacht' WHERE entry=223; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Priesterlehrer der Azurwacht' WHERE entry=224; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Schamanenlehrer der Azurwacht' WHERE entry=225; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Kriegerlehrer der Azurwacht' WHERE entry=226; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Alchemist der Azurwacht' WHERE entry=227; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Schmied von Odesyus\' Ankerplatz' WHERE entry=228; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Koch von Odesyus\' Ankerplatz' WHERE entry=229; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Ingenieurskunstlehrer der Azurwacht' WHERE entry=230; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Lehrer für Erste Hilfe der Azurwacht' WHERE entry=231; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Anglerin des Am\'menflusses' WHERE entry=232; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Kräuterkundiger der Azurwacht' WHERE entry=233; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Lederer der Tannenruhfeste' WHERE entry=234; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Bergbaulehrer der Azurwacht' WHERE entry=235; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Kürschner der Tannenruhfeste' WHERE entry=236; -- falsch da TBC Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Schneider von Odesyus\' Ankerplatz' WHERE entry=237; -- falsch da TBC Content
-
-/* fehlt noch in TBCDB
+UPDATE locales_points_of_interest SET icon_name_loc3='Auktionator der Exodar' WHERE entry=190;
+UPDATE locales_points_of_interest SET icon_name_loc3='Bank der Exodar' WHERE entry=191;
+UPDATE locales_points_of_interest SET icon_name_loc3='Hippogryphenmeister der Exodar' WHERE entry=192;
+UPDATE locales_points_of_interest SET icon_name_loc3='Gildenmeister der Exodar' WHERE entry=193;
+UPDATE locales_points_of_interest SET icon_name_loc3='Gasthaus der Exodar' WHERE entry=194;
+UPDATE locales_points_of_interest SET icon_name_loc3='Briefkasten der Exodar' WHERE entry=195;
+UPDATE locales_points_of_interest SET icon_name_loc3='Stallmeister der Exodar' WHERE entry=196;
+UPDATE locales_points_of_interest SET icon_name_loc3='Waffenmeister der Exodar' WHERE entry=197;
+UPDATE locales_points_of_interest SET icon_name_loc3='Druidenlehrer der Exodar' WHERE entry=198;
+UPDATE locales_points_of_interest SET icon_name_loc3='Jägerlehrer der Exodar' WHERE entry=199;
+UPDATE locales_points_of_interest SET icon_name_loc3='Magierlehrer der Exodar' WHERE entry=200;
+UPDATE locales_points_of_interest SET icon_name_loc3='Paladinlehrer der Exodar' WHERE entry=201;
+UPDATE locales_points_of_interest SET icon_name_loc3='Priesterlehrer der Exodar' WHERE entry=202;
+UPDATE locales_points_of_interest SET icon_name_loc3='Schamanenlehrer der Exodar' WHERE entry=203;
+UPDATE locales_points_of_interest SET icon_name_loc3='Kriegerlehrer der Exodar' WHERE entry=204;
+UPDATE locales_points_of_interest SET icon_name_loc3='Alchemielehrer der Exodar' WHERE entry=205;
+UPDATE locales_points_of_interest SET icon_name_loc3='Schmiedekunstlehrer der Exodar' WHERE entry=206;
+UPDATE locales_points_of_interest SET icon_name_loc3='Verzauberer der Exodar' WHERE entry=207;
+UPDATE locales_points_of_interest SET icon_name_loc3='Ingenieurskunst der Exodar' WHERE entry=208;
+UPDATE locales_points_of_interest SET icon_name_loc3='Lehrer für Erste Hilfe der Exodar' WHERE entry=209;
+UPDATE locales_points_of_interest SET icon_name_loc3='Angellehrer der Exodar' WHERE entry=210;
+UPDATE locales_points_of_interest SET icon_name_loc3='Kräuterkundelehrer der Exodar' WHERE entry=211;
+UPDATE locales_points_of_interest SET icon_name_loc3='Inschriften der Exodar' WHERE entry=212;
+UPDATE locales_points_of_interest SET icon_name_loc3='Juwelenschleifer der Exodar' WHERE entry=213;
+UPDATE locales_points_of_interest SET icon_name_loc3='Lederverarbeitung der Exodar' WHERE entry=214;
+UPDATE locales_points_of_interest SET icon_name_loc3='Bergbaulehrer der Exodar' WHERE entry=215;
+UPDATE locales_points_of_interest SET icon_name_loc3='Kürschnerlehrer der Exodar' WHERE entry=216;
+UPDATE locales_points_of_interest SET icon_name_loc3='Schneider der Exodar' WHERE entry=217;
+UPDATE locales_points_of_interest SET icon_name_loc3='Koch der Exodar' WHERE entry=218;
+UPDATE locales_points_of_interest SET icon_name_loc3='Gastwirt der Azurwacht' WHERE entry=219;
+UPDATE locales_points_of_interest SET icon_name_loc3='Stallmeister der Azurwacht' WHERE entry=220;
+UPDATE locales_points_of_interest SET icon_name_loc3='Jägerlehrer der Azurwacht' WHERE entry=221;
+UPDATE locales_points_of_interest SET icon_name_loc3='Magierlehrer der Azurwacht' WHERE entry=222;
+UPDATE locales_points_of_interest SET icon_name_loc3='Paladinlehrer der Azurwacht' WHERE entry=223;
+UPDATE locales_points_of_interest SET icon_name_loc3='Priesterlehrer der Azurwacht' WHERE entry=224;
+UPDATE locales_points_of_interest SET icon_name_loc3='Schamanenlehrer der Azurwacht' WHERE entry=225;
+UPDATE locales_points_of_interest SET icon_name_loc3='Kriegerlehrer der Azurwacht' WHERE entry=226;
+UPDATE locales_points_of_interest SET icon_name_loc3='Alchemist der Azurwacht' WHERE entry=227;
+UPDATE locales_points_of_interest SET icon_name_loc3='Schmied von Odesyus\' Ankerplatz' WHERE entry=228;
+UPDATE locales_points_of_interest SET icon_name_loc3='Koch von Odesyus\' Ankerplatz' WHERE entry=229;
+UPDATE locales_points_of_interest SET icon_name_loc3='Ingenieurskunstlehrer der Azurwacht' WHERE entry=230;
+UPDATE locales_points_of_interest SET icon_name_loc3='Lehrer für Erste Hilfe der Azurwacht' WHERE entry=231;
+UPDATE locales_points_of_interest SET icon_name_loc3='Anglerin des Am\'menflusses' WHERE entry=232;
+UPDATE locales_points_of_interest SET icon_name_loc3='Kräuterkundiger der Azurwacht' WHERE entry=233;
+UPDATE locales_points_of_interest SET icon_name_loc3='Lederer der Tannenruhfeste' WHERE entry=234;
+UPDATE locales_points_of_interest SET icon_name_loc3='Bergbaulehrer der Azurwacht' WHERE entry=235;
+UPDATE locales_points_of_interest SET icon_name_loc3='Kürschner der Tannenruhfeste' WHERE entry=236;
+UPDATE locales_points_of_interest SET icon_name_loc3='Schneider von Odesyus\' Ankerplatz' WHERE entry=237;
 UPDATE locales_points_of_interest SET icon_name_loc3='Krunn' WHERE entry=238;
 UPDATE locales_points_of_interest SET icon_name_loc3='Mishiki' WHERE entry=239;
 UPDATE locales_points_of_interest SET icon_name_loc3='Lau\'Tiki' WHERE entry=240;
@@ -370,8 +318,6 @@ UPDATE locales_points_of_interest SET icon_name_loc3='Gennia Runentotem' WHERE e
 UPDATE locales_points_of_interest SET icon_name_loc3='Seikwa' WHERE entry=337;
 UPDATE locales_points_of_interest SET icon_name_loc3='Gasthaus der Bluthufe' WHERE entry=338;
 UPDATE locales_points_of_interest SET icon_name_loc3='Yarr Hammerstein' WHERE entry=339;
-*/
-/* -- flasch da TBC Content
 UPDATE locales_points_of_interest SET icon_name_loc3='Wirtshaus von Shattrath' WHERE entry=340;
 UPDATE locales_points_of_interest SET icon_name_loc3='Taxi von Shattrath' WHERE entry=341;
 UPDATE locales_points_of_interest SET icon_name_loc3='Alchemist von Shattrath' WHERE entry=342;
@@ -395,16 +341,10 @@ UPDATE locales_points_of_interest SET icon_name_loc3='Kampfmeister der Horde von
 UPDATE locales_points_of_interest SET icon_name_loc3='Arenakampfmeister von Shattrath' WHERE entry=360;
 UPDATE locales_points_of_interest SET icon_name_loc3='Edelsteinhändler der Aldor' WHERE entry=361;
 UPDATE locales_points_of_interest SET icon_name_loc3='Edelsteinhändler der Seher' WHERE entry=362;
-*/
-/* fehlt noch in TBCDB
 UPDATE locales_points_of_interest SET icon_name_loc3='Kräuterkundige Pomeroy' WHERE entry=363;
 UPDATE locales_points_of_interest SET icon_name_loc3='Tempel des Mondes' WHERE entry=364;
-*/
-/* falsch da WOTLK Content
 UPDATE locales_points_of_interest SET icon_name_loc3='Leder- & Kettenrüstung von Dalaran' WHERE entry=365;
 UPDATE locales_points_of_interest SET icon_name_loc3='Plattenrüstung & Schilde in Dalaran' WHERE entry=366;
-*/
-/* -- falsch da TBC Content
 UPDATE locales_points_of_interest SET icon_name_loc3='Auktionshaus von Silbermond' WHERE entry=367;
 UPDATE locales_points_of_interest SET icon_name_loc3='Auktionshaus von Silbermond' WHERE entry=368;
 UPDATE locales_points_of_interest SET icon_name_loc3='Bank von Silbermond' WHERE entry=369;
@@ -457,8 +397,6 @@ UPDATE locales_points_of_interest SET icon_name_loc3='Juwelenschleifer vom Falke
 UPDATE locales_points_of_interest SET icon_name_loc3='Lederer des Immersangwalds' WHERE entry=416;
 UPDATE locales_points_of_interest SET icon_name_loc3='Kürschner des Immersangwalds' WHERE entry=417;
 UPDATE locales_points_of_interest SET icon_name_loc3='Schneider von Saltherils Hafen' WHERE entry=418;
-*/
-/* fehlt noch in TBCDB
 UPDATE locales_points_of_interest SET icon_name_loc3='Gerätehandel Sprungspindel' WHERE entry=419;
 UPDATE locales_points_of_interest SET icon_name_loc3='Jägerhalle von Orgrimmar' WHERE entry=420;
 UPDATE locales_points_of_interest SET icon_name_loc3='Dunkeldornenlodge' WHERE entry=421;
@@ -481,15 +419,5 @@ UPDATE locales_points_of_interest SET icon_name_loc3='Magars Tuchwaren' WHERE en
 UPDATE locales_points_of_interest SET icon_name_loc3='Magielehrer von Darnassus' WHERE entry=438;
 UPDATE locales_points_of_interest SET icon_name_loc3='Paladinlehrer von Darnassus' WHERE entry=439;
 UPDATE locales_points_of_interest SET icon_name_loc3='Kräuterkundelehrer von Darnassus' WHERE entry=440;
-*/
-/* -- falsch da TBC Content
 UPDATE locales_points_of_interest SET icon_name_loc3='Kampfmeister der Exodar' WHERE entry=441;
 UPDATE locales_points_of_interest SET icon_name_loc3='Arenakampfmeister der Exodar' WHERE entry=442;
-*/
-/* -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Arena in der Kanalisation von Dalaran' WHERE entry=443;
-UPDATE locales_points_of_interest SET icon_name_loc3='Bank in der Kanalisation von Dalaran' WHERE entry=444;
-UPDATE locales_points_of_interest SET icon_name_loc3='Gasthaus in der Kanalisation von Dalaran' WHERE entry=445;
-UPDATE locales_points_of_interest SET icon_name_loc3='Kanalisationstunnel von Dalaran' WHERE entry=446;
-UPDATE locales_points_of_interest SET icon_name_loc3='Händler in der Kanalisation von Dalaran' WHERE entry=447;
-*/
