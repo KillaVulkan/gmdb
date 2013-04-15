@@ -26,7 +26,7 @@
 
 INSERT IGNORE INTO locales_creature (entry) SELECT entry FROM creature_template;
 
-UPDATE locales_creature SET `name_loc3`='', `subname_loc3`=null;
+UPDATE locales_creature SET `name_loc3`='', `subname_loc3`=NULL;
 
 UPDATE locales_creature SET name_loc3='Wegpunkt (Nur für GMs sichtbar)', subname_loc3='Visual' WHERE entry=1;
 UPDATE locales_creature SET name_loc3='Fleischfresser' WHERE entry=3;
@@ -46,10 +46,11 @@ UPDATE locales_creature SET name_loc3='Corina Stähler', subname_loc3='Waffenschm
 UPDATE locales_creature SET name_loc3='Ruklar der Fallensteller' WHERE entry=60;
 UPDATE locales_creature SET name_loc3='Thuros Flinkfinger' WHERE entry=61;
 UPDATE locales_creature SET name_loc3='Gug Fettkerze' WHERE entry=62;
-UPDATE locales_creature SET name_loc3='Gug Fettkerze' WHERE entry=65;
 UPDATE locales_creature SET name_loc3='Tharynn Bouden', subname_loc3='Handwerkswaren' WHERE entry=66;
+UPDATE locales_creature SET name_loc3='Marlon Darnik', subname_loc3='Lebensmittelverkäufer' WHERE entry=67;
 UPDATE locales_creature SET name_loc3='Stadtwache von Sturmwind' WHERE entry=68;
 UPDATE locales_creature SET name_loc3='Erkrankter wilder Waldwolf' WHERE entry=69;
+UPDATE locales_creature SET name_loc3='Schlagetot' WHERE entry=71;
 UPDATE locales_creature SET name_loc3='Kurran Stähler', subname_loc3='Tuch- & Lederrüstungshändler' WHERE entry=74;
 UPDATE locales_creature SET name_loc3='Janos Knöchelhammer', subname_loc3='Waffenschmied' WHERE entry=78;
 UPDATE locales_creature SET name_loc3='Narg der Zuchtmeister' WHERE entry=79;
