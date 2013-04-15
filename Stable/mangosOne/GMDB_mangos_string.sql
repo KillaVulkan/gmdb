@@ -31,7 +31,7 @@ UPDATE `mangos_string` SET `content_loc3`='|cffff0000[Ereignis-Nachricht]: %s|r'
 UPDATE `mangos_string` SET `content_loc3`='Es gibt keine Hilfe für diesen Befehl.' WHERE entry=5;
 UPDATE `mangos_string` SET `content_loc3`='Es gibt keinen solchen Befehl.' WHERE entry=6;
 UPDATE `mangos_string` SET `content_loc3`='Es gibt keinen solchen Unterbefehl.' WHERE entry=7;
-UPDATE `mangos_string` SET `content_loc3`='Befehl %s hat Unterbefehle:%s' WHERE entry=8;
+UPDATE `mangos_string` SET `content_loc3`='Befehl %s hat Unterbefehle:' WHERE entry=8;
 UPDATE `mangos_string` SET `content_loc3`='Befehle, die für Euch verfügbar sind:' WHERE entry=9;
 UPDATE `mangos_string` SET `content_loc3`='Falsche Syntax.' WHERE entry=10;
 UPDATE `mangos_string` SET `content_loc3`='Euer Accountlevel ist: %i' WHERE entry=11;
